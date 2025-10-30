@@ -2878,7 +2878,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1757949450.17</time>
+    <time>1761839486.80</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -3026,7 +3026,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.0">
+    <IDS version="1.1.1" persisted_at="1761839486.14">
       <rules/>
       <policies/>
       <userDefinedRules/>
@@ -4001,7 +4001,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <general version="0.0.1">
         <enabled>0</enabled>
       </general>
-      <server version="1.0.0">
+      <server version="1.0.1" persisted_at="1761839486.65">
         <servers/>
       </server>
     </wireguard>
