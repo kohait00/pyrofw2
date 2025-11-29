@@ -2878,7 +2878,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1761839486.80</time>
+    <time>1764460177.12</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -3387,7 +3387,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.12">
+    <unboundplus version="1.0.13" persisted_at="1764460176.76" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -3404,6 +3404,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <noregrecords>0</noregrecords>
         <txtsupport>0</txtsupport>
         <cacheflush>0</cacheflush>
+        <safesearch>0</safesearch>
         <local_zone_type>transparent</local_zone_type>
         <outgoing_interface/>
         <enable_wpad>0</enable_wpad>
@@ -3451,17 +3452,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <acls>
         <default_action>allow</default_action>
       </acls>
-      <dnsbl>
-        <enabled>0</enabled>
-        <safesearch>0</safesearch>
-        <type/>
-        <lists/>
-        <whitelists/>
-        <blocklists/>
-        <wildcards/>
-        <address/>
-        <nxdomain>0</nxdomain>
-      </dnsbl>
+      <dnsbl/>
       <forwarding>
         <enabled>1</enabled>
       </forwarding>
