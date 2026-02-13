@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <opnsense>
   <theme>opnsense</theme>
-  <sysctl version="1.0.1">
+  <sysctl version="1.0.2" persisted_at="1771023339.98" description="System Tunables">
     <item uuid="0aa09b58-c797-4a31-8def-2ef757e1cbd7">
       <tunable>vfs.read_max</tunable>
       <value/>
@@ -2878,7 +2878,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1764460177.12</time>
+    <time>1771023341.67</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -4022,6 +4022,15 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <interface/>
       </general>
     </lldpd>
+    <Hostwatch version="1.0.0" persisted_at="1771023339.80" description="Host discovery">
+      <general>
+        <enabled>1</enabled>
+        <promisc>0</promisc>
+        <verbose>0</verbose>
+        <skip_nets/>
+        <interface/>
+      </general>
+    </Hostwatch>
   </OPNsense>
   <openvpn/>
   <ifgroups version="1.0.0">
