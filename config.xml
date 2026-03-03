@@ -284,11 +284,6 @@
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
     <disableconsolemenu>1</disableconsolemenu>
-    <disablevlanhwfilter>1</disablevlanhwfilter>
-    <disablechecksumoffloading>1</disablechecksumoffloading>
-    <disablesegmentationoffloading>1</disablesegmentationoffloading>
-    <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
-    <ipv6allow/>
     <powerd_ac_mode>hadp</powerd_ac_mode>
     <powerd_battery_mode>hadp</powerd_battery_mode>
     <powerd_normal_mode>hadp</powerd_normal_mode>
@@ -316,7 +311,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-bind,os-cpu-microcode-intel,os-ddclient,os-debug,os-dec-hw,os-dmidecode,os-gdrive-backup,os-git-backup,os-hw-probe,os-iperf,os-lldpd,os-netdata,os-ntopng,os-theme-rebellion,os-wol</plugins>
+      <plugins>os-bind,os-cpu-microcode-intel,os-ddclient,os-debug,os-dec-hw,os-dmidecode,os-gdrive-backup,os-git-backup,os-hw-probe,os-iperf,os-isc-dhcp,os-lldpd,os-netdata,os-ntopng,os-theme-rebellion,os-wol</plugins>
       <subscription/>
       <type/>
     </firmware>
@@ -617,7 +612,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <subnetv6>96</subnetv6>
     </opt20>
     <opt21>
-      <if>lagg4</if>
+      <if>lagg1</if>
       <descr>PFSYNC</descr>
       <enable>1</enable>
       <spoofmac/>
@@ -1258,125 +1253,165 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         </created>
       </rule>
     </outbound>
-    <rule>
-      <protocol>tcp</protocol>
-      <interface>opt7,opt8,opt12,lan,opt2,opt5,opt15,opt20</interface>
-      <category/>
-      <ipprotocol>inet46</ipprotocol>
-      <descr>Anti-Lockout Rule</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id/>
+    <rule uuid="da688783-d0f8-44ad-8519-3e621b3f3143">
+      <sequence>100</sequence>
       <disabled>1</disabled>
       <nordr>1</nordr>
+      <interface>opt7,opt8,opt12,lan,opt2,opt5,opt15,opt20</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>(self)</network>
         <port>443</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>root@147.161.170.103</username>
-        <time>1729112960.0527</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target/>
+      <local-port/>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>Anti-Lockout Rule</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.200.202</username>
         <time>1705063451.5782</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>root@147.161.170.103</username>
+        <time>1729112960.0527</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
-      <interface>opt7,opt8,opt12,lan,opt2,opt5,opt15,opt20</interface>
-      <category/>
-      <ipprotocol>inet46</ipprotocol>
-      <descr>Anti-Lockout Rule</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id/>
+    <rule uuid="e13b8384-b8f3-4171-85cc-eba43fbe38a5">
+      <sequence>200</sequence>
+      <disabled>0</disabled>
       <nordr>1</nordr>
+      <interface>opt7,opt8,opt12,lan,opt2,opt5,opt15,opt20</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>(self)</network>
         <port>22</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>root@192.168.120.183</username>
-        <time>1735863590.3453</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target/>
+      <local-port/>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>Anti-Lockout Rule</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.120.183</username>
         <time>1735863590.3453</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>root@192.168.120.183</username>
+        <time>1735863590.3453</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
-      <interface>wan</interface>
-      <category/>
-      <ipprotocol>inet46</ipprotocol>
-      <descr>Anti-Lockout Rule</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id/>
+    <rule uuid="7f2b799f-8819-4aa6-9c56-1d2a95592683">
+      <sequence>300</sequence>
+      <disabled>1</disabled>
       <nordr>1</nordr>
-      <log>1</log>
+      <interface>wan</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>(self)</network>
         <port>443</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>root@192.168.200.202</username>
-        <time>1705064049.8244</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target/>
+      <local-port/>
+      <poolopts/>
+      <log>1</log>
+      <category/>
+      <descr>Anti-Lockout Rule</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.2.190</username>
         <time>1704401774.9386</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
+      <updated>
+        <username>root@192.168.200.202</username>
+        <time>1705064049.8244</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
-    <rule>
-      <protocol>tcp/udp</protocol>
+    <rule uuid="e22f3c94-20a0-45cf-b327-f1823e809fb0">
+      <sequence>400</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
       <interface>wan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_66048b95071de9.24809280</associated-rule-id>
-      <target>192.168.110.50</target>
-      <local-port>3478</local-port>
+      <protocol>tcp/udp</protocol>
       <source>
-        <any>1</any>
+        <network/>
+        <port/>
+        <not>0</not>
       </source>
       <destination>
         <network>(self)</network>
         <port>3478-3480</port>
+        <not>0</not>
       </destination>
-      <updated>
-        <username>root@192.168.120.125</username>
-        <time>1711573909.0292</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
+      <target>192.168.110.50</target>
+      <local-port>3478</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
       <created>
         <username>root@192.168.120.125</username>
         <time>1711573909.0292</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>root@192.168.120.125</username>
+        <time>1711573909.0292</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
   </nat>
   <filter>
@@ -2876,9 +2911,9 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1771023341.67</time>
+    <username>root@192.168.120.140</username>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1772540274.14</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -3026,7 +3061,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.1" persisted_at="1761839486.14">
+    <IDS version="1.1.2" persisted_at="1771252916.69" description="Intrusion detection">
       <rules/>
       <policies/>
       <userDefinedRules/>
@@ -3034,7 +3069,8 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <fileTags/>
       <general>
         <enabled>0</enabled>
-        <ips>0</ips>
+        <mode>pcap</mode>
+        <divert_listeners>1</divert_listeners>
         <promisc>0</promisc>
         <interfaces>wan</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
@@ -3071,6 +3107,17 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <loopbacks version="1.0.0"/>
       <vxlans version="1.0.2"/>
       <neighbors version="1.0.0"/>
+      <settings version="1.0.0" persisted_at="1771252915.82" description="Global interface settings">
+        <disablechecksumoffloading>1</disablechecksumoffloading>
+        <disablesegmentationoffloading>1</disablesegmentationoffloading>
+        <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
+        <disablevlanhwfilter>1</disablevlanhwfilter>
+        <disableipv6>0</disableipv6>
+        <dhcp6_norelease>0</dhcp6_norelease>
+        <dhcp6_debug>0</dhcp6_debug>
+        <dhcp6_duid/>
+        <dhcp6_ratimeout>10</dhcp6_ratimeout>
+      </settings>
     </Interfaces>
     <monit version="1.0.14" persisted_at="1757949449.83">
       <general>
@@ -4031,6 +4078,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <interface/>
       </general>
     </Hostwatch>
+    <radvd version="1.0.0" persisted_at="1771252917.30" description="Radvd configuration"/>
   </OPNsense>
   <openvpn/>
   <ifgroups version="1.0.0">
