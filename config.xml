@@ -468,7 +468,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     </opt5>
     <opt6>
       <if>vlan0.108</if>
-      <descr>IOT</descr>
+      <descr>IOT_ALL</descr>
       <enable>1</enable>
       <spoofmac/>
       <ipaddr>192.168.108.2</ipaddr>
@@ -2911,9 +2911,9 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1773136350.25</time>
+    <username>root@192.168.120.113</username>
+    <description>/interfaces.php made changes</description>
+    <time>1773386659.25</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
