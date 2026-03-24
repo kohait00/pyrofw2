@@ -2911,9 +2911,9 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.113</username>
-    <description>/interfaces.php made changes</description>
-    <time>1773386659.25</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1774368639.18</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -4031,6 +4031,13 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <pd_pools/>
         <ha_peers/>
       </dhcp6>
+      <ddns version="1.0.0" persisted_at="1774368638.26" description="Kea Dynamic DNS configuration">
+        <general>
+          <enabled>0</enabled>
+          <server_ip>127.0.0.1</server_ip>
+          <server_port>53001</server_port>
+        </general>
+      </ddns>
     </Kea>
     <wireguard>
       <client version="1.0.0">
@@ -4698,7 +4705,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <password>hellfire</password>
     <syncitems>aliases,bind,captiveportal,certs,cron,dhcpd,dhcpdv6,dhcrelay,dnsforwarder,categories,ifgroups,rules,ipsec,kea,nat,ntpd,opendns,ssh,openvpn,shaper,staticroutes,dnsresolver,users,virtualip,wol,webgui</syncitems>
   </hasync>
-  <dnsmasq version="1.0.8" persisted_at="1756129024.52">
+  <dnsmasq version="1.0.9" persisted_at="1774368639.13" description="Dnsmasq DNS and DHCP">
     <enable/>
     <regdhcp/>
     <regdhcpstatic/>
@@ -4730,7 +4737,10 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <default_fw_rules>1</default_fw_rules>
       <reply_delay/>
       <enable_ra>0</enable_ra>
+      <host_ping>1</host_ping>
       <nosync>0</nosync>
+      <log_dhcp>0</log_dhcp>
+      <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
   </dnsmasq>
