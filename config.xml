@@ -2913,7 +2913,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1774368639.18</time>
+    <time>1775831364.45</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -3008,7 +3008,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <Instances/>
       <StaticKeys/>
     </OpenVPN>
-    <captiveportal version="1.0.4">
+    <captiveportal version="1.0.5" persisted_at="1775831362.04" description="Captive portal application model">
       <zones/>
       <templates/>
     </captiveportal>
@@ -3434,7 +3434,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.14" persisted_at="1773136349.87" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1775831363.97" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -3462,6 +3462,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <prefetch>0</prefetch>
         <prefetchkey>0</prefetchkey>
         <dnssecstripped>0</dnssecstripped>
+        <belownxdomain>1</belownxdomain>
         <aggressivensec>1</aggressivensec>
         <serveexpired>0</serveexpired>
         <serveexpiredreplyttl/>
