@@ -2912,8 +2912,8 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.104</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1775997188.75</time>
+    <description>/api/interfaces/lagg_settings/set_item/40ddf3ab-c5e7-4f24-8cff-f49098437f5b made changes</description>
+    <time>1776021943.83</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -4256,7 +4256,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <ifgroups version="1.0.0">
     <ifgroupentry/>
   </ifgroups>
-  <laggs version="1.0.0" persisted_at="1775989792.49" description="LAGG devices">
+  <laggs version="1.0.0" persisted_at="1776021943.83" description="LAGG devices">
     <lagg uuid="52818e4b-f8ab-4770-b04e-01f702e22463">
       <laggif>lagg0</laggif>
       <members>igc0,igc1</members>
@@ -4273,7 +4273,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <laggif>lagg1</laggif>
       <members>igc2,igc3</members>
       <primary_member/>
-      <proto>failover</proto>
+      <proto>lacp</proto>
       <lacp_fast_timeout>0</lacp_fast_timeout>
       <use_flowid/>
       <lagghash/>
