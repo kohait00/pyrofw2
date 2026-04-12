@@ -412,7 +412,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <ipaddr>pppoe</ipaddr>
     </opt1>
     <opt2>
-      <if>lagg5</if>
+      <if>lagg3</if>
       <descr>LAN2</descr>
       <enable>1</enable>
       <spoofmac/>
@@ -420,7 +420,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <subnet>24</subnet>
     </opt2>
     <opt3>
-      <if>lagg3</if>
+      <if>vlan0.998</if>
       <descr>WAN3</descr>
       <enable>1</enable>
       <spoofmac/>
@@ -2912,8 +2912,8 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.104</username>
-    <description>/api/interfaces/lagg_settings/set_item/b4cd0a34-cdf0-4712-bb2e-70d1b1b6cc07 made changes</description>
-    <time>1775989792.49</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1775990070.41</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
