@@ -2913,7 +2913,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.120.104</username>
     <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1776024427.51</time>
+    <time>1776024526.12</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -3649,7 +3649,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8002</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1776024427.51" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1776024526.12" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -3669,7 +3669,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <unwarned_reclaim_cycles/>
         </lexpire>
         <ha>
-          <enabled>1</enabled>
+          <enabled>0</enabled>
           <this_server_name/>
           <max_unacked_clients>2</max_unacked_clients>
         </ha>
