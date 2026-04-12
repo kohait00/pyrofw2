@@ -2912,8 +2912,8 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.104</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1775993027.90</time>
+    <description>/api/kea/dhcpv4/set made changes</description>
+    <time>1775997188.75</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -3649,15 +3649,25 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8002</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1756370117.37">
+      <dhcp4 version="1.0.4" persisted_at="1775997188.75" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
-          <interfaces>opt7,opt8,opt13,opt14,opt12,opt6,opt2,opt5,opt16,opt17,opt15,opt20,opt4,opt10,opt11,opt9</interfaces>
+          <interfaces>opt7,opt8,opt13,opt14,opt12,opt6,lan,opt2,opt5,opt16,opt17,opt15,opt20,opt4,opt10,opt11,opt9</interfaces>
+          <service_sockets_max_retries/>
+          <service_sockets_retry_wait_time/>
           <valid_lifetime>600</valid_lifetime>
           <fwrules>1</fwrules>
           <dhcp_socket_type>raw</dhcp_socket_type>
         </general>
+        <lexpire>
+          <hold_reclaimed_time/>
+          <reclaim_timer_wait_time/>
+          <flush_reclaimed_timer_wait_time/>
+          <max_reclaim_time/>
+          <max_reclaim_leases/>
+          <unwarned_reclaim_cycles/>
+        </lexpire>
         <ha>
           <enabled>0</enabled>
           <this_server_name/>
@@ -3673,15 +3683,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.200.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.200.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.200.100 - 192.168.200.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>DEVpool</description>
           </subnet4>
           <subnet4 uuid="d21dbd17-35c9-4955-bd28-691d34a5c64a">
@@ -3693,15 +3712,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.100.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.100.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.100.100 - 192.168.100.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>DMZpool</description>
           </subnet4>
           <subnet4 uuid="6c83782d-e859-490b-8333-92d08612a2e0">
@@ -3713,15 +3741,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.121.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.121.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.121.100 - 192.168.121.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>EG_GUESTpool</description>
           </subnet4>
           <subnet4 uuid="135792d2-b230-4f27-9879-78ea056ffc62">
@@ -3733,15 +3770,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.128.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.128.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.128.100 - 192.168.128.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>EG_IOTpool</description>
           </subnet4>
           <subnet4 uuid="d0eb8e7b-42a6-4b7f-b278-4c293b9994aa">
@@ -3753,15 +3799,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.120.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.120.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.120.100 - 192.168.120.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>EG_LANpool</description>
           </subnet4>
           <subnet4 uuid="8007e862-3097-4fdd-8562-b03b12b9f223">
@@ -3773,15 +3828,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.108.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.108.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.108.100 - 192.168.108.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>IOTpool</description>
           </subnet4>
           <subnet4 uuid="b04bacb4-73b7-489c-a321-861470def5a4">
@@ -3793,15 +3857,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.1.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.1.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.1.100 - 192.168.1.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>LANpool</description>
           </subnet4>
           <subnet4 uuid="da322a5e-eec4-4196-87fb-b0ae4f70dd80">
@@ -3813,15 +3886,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.2.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.2.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.2.100 - 192.168.2.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>LAN2pool</description>
           </subnet4>
           <subnet4 uuid="2815e3ec-179d-496a-8da8-d88602ca570b">
@@ -3833,15 +3915,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.99.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.99.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.99.100 - 192.168.99.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>MGMpool</description>
           </subnet4>
           <subnet4 uuid="aed1d9c0-838c-439b-9add-eed63be58dd9">
@@ -3853,15 +3944,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.88.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.88.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.88.100 - 192.168.88.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>TECHpool</description>
           </subnet4>
           <subnet4 uuid="b7a397ba-5753-4bd5-9e85-9385c3ab1dcb">
@@ -3873,15 +3973,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.101.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.101.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.101.100 - 192.168.101.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>SRVpool</description>
           </subnet4>
           <subnet4 uuid="927186eb-f92b-4469-8f72-61d637334460">
@@ -3893,15 +4002,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.131.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.131.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.131.100 - 192.168.131.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>OG_GUESTpool</description>
           </subnet4>
           <subnet4 uuid="3ec6c4dd-2e29-4d0f-8930-0935a5507001">
@@ -3913,15 +4031,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.138.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.138.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.138.100 - 192.168.138.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>OG_IOTpool</description>
           </subnet4>
           <subnet4 uuid="53c543e3-261f-46e3-9159-e8f56b3cd622">
@@ -3933,15 +4060,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.130.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.130.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.130.100 - 192.168.130.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>OG_LANpool</description>
           </subnet4>
           <subnet4 uuid="54edbc5a-f844-4b89-83ad-00647e026e2d">
@@ -3953,15 +4089,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.111.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.111.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.111.100 - 192.168.111.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>UG_GUESTpool</description>
           </subnet4>
           <subnet4 uuid="694043e7-bd16-497d-9d5c-11945d080c80">
@@ -3973,15 +4118,24 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.118.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.118.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.118.100 - 192.168.118.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>UG_IOTpool</description>
           </subnet4>
           <subnet4 uuid="fbfc6e52-f3d2-4129-aac4-214f6718d0ea">
@@ -3993,19 +4147,29 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
               <domain_search/>
               <routers>192.168.110.254</routers>
               <static_routes/>
+              <classless_static_route/>
               <domain_name/>
               <ntp_servers>192.168.110.254</ntp_servers>
               <time_servers/>
               <tftp_server_name/>
               <boot_file_name/>
               <v6_only_preferred/>
+              <v4_dnr/>
             </option_data>
+            <option/>
             <match-client-id>1</match-client-id>
             <pools>192.168.110.100 - 192.168.110.199</pools>
+            <ddns_forward_zone/>
+            <ddns_qualifying_suffix/>
+            <ddns_dns_server/>
+            <ddns_domain_key_name/>
+            <ddns_domain_key_secret/>
+            <ddns_domain_key_algorithm/>
             <description>UG_LANpool</description>
           </subnet4>
         </subnets>
         <reservations/>
+        <options/>
         <ha_peers>
           <peer uuid="5f38e1ee-a04c-482b-b086-581d029fad17">
             <name>fw1</name>
