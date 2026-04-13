@@ -1253,7 +1253,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         </created>
       </rule>
     </outbound>
-    <rule uuid="da688783-d0f8-44ad-8519-3e621b3f3143">
+    <rule uuid="50aab8f8-618b-4a84-ab48-1cf770ba7665">
       <sequence>100</sequence>
       <disabled>1</disabled>
       <nordr>1</nordr>
@@ -1293,7 +1293,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
     </rule>
-    <rule uuid="e13b8384-b8f3-4171-85cc-eba43fbe38a5">
+    <rule uuid="ed920904-f4bb-4224-b0b0-82fb6781cd03">
       <sequence>200</sequence>
       <disabled>0</disabled>
       <nordr>1</nordr>
@@ -1333,7 +1333,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
     </rule>
-    <rule uuid="7f2b799f-8819-4aa6-9c56-1d2a95592683">
+    <rule uuid="4c6b2fdd-046d-435e-b081-d48553aa75bc">
       <sequence>300</sequence>
       <disabled>1</disabled>
       <nordr>1</nordr>
@@ -1373,7 +1373,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
     </rule>
-    <rule uuid="e22f3c94-20a0-45cf-b327-f1823e809fb0">
+    <rule uuid="57f76940-c00b-4ad2-b50b-30b8c8192b2d">
       <sequence>400</sequence>
       <disabled>0</disabled>
       <nordr>0</nordr>
@@ -2911,12 +2911,12 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@147.161.234.169</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1776066150.89</time>
+    <username>(root)@192.168.9.1</username>
+    <description>Merged OPNsense,system,cert,ca,crl,virtualip,staticroutes,gateways,dhcpd,dhcpdv6,dhcrelay,dhcrelay6,dnsmasq,ipsec,ntpd,opendns,openvpn,ifgroups,filter,aliases,nat,unbound,wol config sections from XMLRPC client.</description>
+    <time>1776067049.43</time>
   </revision>
   <OPNsense>
-    <IPsec version="1.0.5" persisted_at="1757949449.81">
+    <IPsec version="1.0.5" persisted_at="1757947480.04">
       <general>
         <enabled/>
         <preferred_oldsa>0</preferred_oldsa>
@@ -3008,7 +3008,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <Instances/>
       <StaticKeys/>
     </OpenVPN>
-    <captiveportal version="1.0.5" persisted_at="1775831362.04" description="Captive portal application model">
+    <captiveportal version="1.0.5" persisted_at="1775830776.43" description="Captive portal application model">
       <zones/>
       <templates/>
     </captiveportal>
@@ -3434,7 +3434,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.15" persisted_at="1775831363.97" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1775830777.35" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -3645,11 +3645,11 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <ctrl_agent version="0.0.1" persisted_at="1756370140.37">
         <general>
           <enabled>1</enabled>
-          <http_host>192.168.9.2</http_host>
-          <http_port>8002</http_port>
+          <http_host>192.168.9.1</http_host>
+          <http_port>8001</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1776066150.89" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1776066424.06" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -4171,15 +4171,15 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <reservations/>
         <options/>
         <ha_peers>
-          <peer uuid="5f38e1ee-a04c-482b-b086-581d029fad17">
-            <name>fw1</name>
-            <role>primary</role>
-            <url>http://192.168.9.1:8001</url>
-          </peer>
-          <peer uuid="a0d08355-924b-4131-acec-734e12b3fbe8">
+          <peer uuid="911d85d9-e860-4a60-a336-f9b2724cfe9d">
             <name>fw2</name>
             <role>standby</role>
             <url>http://192.168.9.2:8002</url>
+          </peer>
+          <peer uuid="aa138821-101a-4c1f-b35d-83c74df86240">
+            <name>fw1</name>
+            <role>primary</role>
+            <url>http://192.168.9.1:8001</url>
           </peer>
         </ha_peers>
       </dhcp4>
@@ -4201,7 +4201,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <pd_pools/>
         <ha_peers/>
       </dhcp6>
-      <ddns version="1.0.0" persisted_at="1774368638.26" description="Kea Dynamic DNS configuration">
+      <ddns version="1.0.0" persisted_at="1774367156.93" description="Kea Dynamic DNS configuration">
         <general>
           <enabled>0</enabled>
           <server_ip>127.0.0.1</server_ip>
@@ -4875,7 +4875,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <password>hellfire</password>
     <syncitems>aliases,bind,captiveportal,certs,cron,dhcpd,dhcpdv6,dhcrelay,dnsforwarder,categories,ifgroups,rules,ipsec,kea,nat,ntpd,opendns,ssh,openvpn,shaper,staticroutes,dnsresolver,users,virtualip,wol,webgui</syncitems>
   </hasync>
-  <dnsmasq version="1.0.9" persisted_at="1774368639.13" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1774367157.31" description="Dnsmasq DNS and DHCP">
     <enable/>
     <regdhcp/>
     <regdhcpstatic/>
