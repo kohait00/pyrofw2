@@ -2911,9 +2911,9 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.104</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1776024526.12</time>
+    <username>root@147.161.234.169</username>
+    <description>/api/kea/dhcpv4/add_peer/ made changes</description>
+    <time>1776066005.34</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -3649,7 +3649,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8002</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1776024526.12" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1776066005.34" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -4175,6 +4175,11 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <name>fw1</name>
             <role>primary</role>
             <url>http://192.168.9.1:8001</url>
+          </peer>
+          <peer uuid="a0d08355-924b-4131-acec-734e12b3fbe8">
+            <name>fw2</name>
+            <role>standby</role>
+            <url>http://192.168.9.2:8002</url>
           </peer>
         </ha_peers>
       </dhcp4>
