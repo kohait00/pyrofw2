@@ -2912,9 +2912,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@147.161.234.169</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1776081566.36</time>
+    <username>root@192.168.120.131</username>
+    <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
+    <time>1776113763.37</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4651,7 +4651,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <descr>vOG_IOT</descr>
     </vip>
   </virtualip>
-  <vlans version="1.0.0">
+  <vlans version="1.0.0" persisted_at="1776113763.37" description="VLAN configuration">
     <vlan uuid="22741638-97c9-43e2-aff4-0cbd5ce74309">
       <if>lagg2</if>
       <tag>200</tag>
@@ -4795,6 +4795,14 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <proto/>
       <descr>IoT</descr>
       <vlanif>vlan0.108</vlanif>
+    </vlan>
+    <vlan uuid="dfc03134-9935-4a30-b126-300635f6e031">
+      <if>lagg2</if>
+      <tag>9</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>PFSYNC</descr>
+      <vlanif>vlan0.9</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0">
