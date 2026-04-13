@@ -333,16 +333,17 @@
       <GDriveBackupCount>60</GDriveBackupCount>
     </remotebackup>
     <backup>
-      <git version="1.0.0">
+      <git version="1.0.0" persisted_at="1776081566.36" description="Git Backup Settings">
         <enabled>1</enabled>
-        <url>ssh://github.com/kohait00/pyrofw.git</url>
+        <url>ssh://github.com/kohait00/pyrofw2.git</url>
         <branch>master</branch>
+        <force_push>0</force_push>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW&#13;
-QyNTUxOQAAACD8HHKeM1clEIHeaT+3bd0nX3MHdZGH2xjJZ5yNZBAY6wAAAJig36OvoN+j&#13;
-rwAAAAtzc2gtZWQyNTUxOQAAACD8HHKeM1clEIHeaT+3bd0nX3MHdZGH2xjJZ5yNZBAY6w&#13;
-AAAED4DLvsSn9pr4wSvDg70epiojtu+dfDNCC0uHS85FCKJfwccp4zVyUQgd5pP7dt3Sdf&#13;
-cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
+QyNTUxOQAAACC8PEG3L3MOHFPxVX4K9TW3jFZjyDRmUyLH9JaYI6fIRwAAAJijHyJ3ox8i&#13;
+dwAAAAtzc2gtZWQyNTUxOQAAACC8PEG3L3MOHFPxVX4K9TW3jFZjyDRmUyLH9JaYI6fIRw&#13;
+AAAEADcVNgOHgr+8R9wVvNmnaVSV2amnhWupYTkLl+QhLHuLw8Qbcvcw4cU/FVfgr1NbeM&#13;
+VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
 -----END OPENSSH PRIVATE KEY-----&#13;
 </privkey>
         <user>git</user>
@@ -2911,9 +2912,9 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)@192.168.9.1</username>
-    <description>Merged OPNsense,system,cert,ca,crl,virtualip,staticroutes,gateways,dhcpd,dhcpdv6,dhcrelay,dhcrelay6,dnsmasq,ipsec,ntpd,opendns,openvpn,ifgroups,filter,aliases,nat,unbound,wol config sections from XMLRPC client.</description>
-    <time>1776069232.67</time>
+    <username>root@147.161.234.169</username>
+    <description>/diag_backup.php made changes</description>
+    <time>1776081566.36</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
