@@ -2911,9 +2911,9 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)@192.168.9.1</username>
-    <description>Merged OPNsense,system,cert,ca,crl,virtualip,staticroutes,gateways,dhcpd,dhcpdv6,dhcrelay,dhcrelay6,dnsmasq,ipsec,ntpd,opendns,openvpn,ifgroups,filter,aliases,nat,unbound,wol config sections from XMLRPC client.</description>
-    <time>1776068744.88</time>
+    <username>root@147.161.234.169</username>
+    <description>/api/kea/dhcpv4/set_peer/aa138821-101a-4c1f-b35d-83c74df86240 made changes</description>
+    <time>1776068846.16</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -3649,7 +3649,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1776066424.06" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1776068846.16" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -4179,7 +4179,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <peer uuid="aa138821-101a-4c1f-b35d-83c74df86240">
             <name>fw1</name>
             <role>primary</role>
-            <url>http://192.168.9.1:8001</url>
+            <url>http://192.168.9.1:8111</url>
           </peer>
         </ha_peers>
       </dhcp4>
