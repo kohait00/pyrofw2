@@ -2912,8 +2912,8 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@147.161.234.169</username>
-    <description>/api/kea/dhcpv4/add_peer/ made changes</description>
-    <time>1776066005.34</time>
+    <description>/api/kea/dhcpv4/set made changes</description>
+    <time>1776066010.79</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757949449.81">
@@ -3649,7 +3649,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8002</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1776066005.34" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1776066010.79" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
