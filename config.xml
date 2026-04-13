@@ -2911,9 +2911,9 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@147.161.234.169</username>
-    <description>/api/kea/ctrl_agent/set made changes</description>
-    <time>1776068606.08</time>
+    <username>(root)@192.168.9.1</username>
+    <description>Merged OPNsense,system,cert,ca,crl,virtualip,staticroutes,gateways,dhcpd,dhcpdv6,dhcrelay,dhcrelay6,dnsmasq,ipsec,ntpd,opendns,openvpn,ifgroups,filter,aliases,nat,unbound,wol config sections from XMLRPC client.</description>
+    <time>1776068708.93</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -3642,7 +3642,7 @@ cwd1kYfbGMlnnI1kEBjrAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       </general>
     </ntopng>
     <Kea>
-      <ctrl_agent version="0.0.1" persisted_at="1776068606.08" description="Kea Control Agent configuration">
+      <ctrl_agent version="0.0.1" persisted_at="1776068540.97" description="Kea Control Agent configuration">
         <general>
           <enabled>1</enabled>
           <http_host>192.168.9.1</http_host>
