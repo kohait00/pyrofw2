@@ -2913,8 +2913,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.104</username>
-    <description>/api/interfaces/lagg_settings/set_item/b4cd0a34-cdf0-4712-bb2e-70d1b1b6cc07 made changes</description>
-    <time>1776172685.64</time>
+    <description>/api/interfaces/lagg_settings/set_item/cb364b0a-aa10-425d-9d93-e53f040da839 made changes</description>
+    <time>1776172696.68</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4262,7 +4262,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <ifgroups version="1.0.0">
     <ifgroupentry/>
   </ifgroups>
-  <laggs version="1.0.0" persisted_at="1776172685.64" description="LAGG devices">
+  <laggs version="1.0.0" persisted_at="1776172696.68" description="LAGG devices">
     <lagg uuid="52818e4b-f8ab-4770-b04e-01f702e22463">
       <laggif>lagg0</laggif>
       <members>igc0,igc1</members>
@@ -4349,9 +4349,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     </lagg>
     <lagg uuid="cb364b0a-aa10-425d-9d93-e53f040da839">
       <laggif>lagg7</laggif>
-      <members>ue3,ue2</members>
+      <members>ue2,ue3</members>
       <primary_member/>
-      <proto>failover</proto>
+      <proto>lacp</proto>
       <lacp_fast_timeout>0</lacp_fast_timeout>
       <use_flowid/>
       <lagghash/>
