@@ -2912,9 +2912,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.104</username>
-    <description>/api/interfaces/lagg_settings/set_item/cb364b0a-aa10-425d-9d93-e53f040da839 made changes</description>
-    <time>1776172696.68</time>
+    <username>(root)@192.168.9.1</username>
+    <description>Merged OPNsense,system,cert,ca,crl,virtualip,staticroutes,gateways,dhcpd,dhcpdv6,dhcrelay,dhcrelay6,dnsmasq,ipsec,ntpd,opendns,openvpn,ifgroups,filter,aliases,nat,unbound,wol config sections from XMLRPC client.</description>
+    <time>1776183987.42</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -3650,7 +3650,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1776068953.25" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1776112732.01" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -4169,7 +4169,288 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>UG_LANpool</description>
           </subnet4>
         </subnets>
-        <reservations/>
+        <reservations>
+          <reservation uuid="e7f88de9-7ea4-45ab-b811-2dc6bda23d96">
+            <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
+            <ip_address>192.168.2.220</ip_address>
+            <hw_address>20:04:0f:40:db:49</hw_address>
+            <hostname>core0</hostname>
+            <description>Core 0 Switch OOB</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="f0a979e6-16bc-4be5-bb29-0006d51e54d1">
+            <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
+            <ip_address>192.168.2.221</ip_address>
+            <hw_address>20:04:0f:40:d9:49</hw_address>
+            <hostname>core1</hostname>
+            <description>Core 1 Switch OOB</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="e4c9de9f-31f8-4050-b129-90c46d63e1c9">
+            <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
+            <ip_address>192.168.2.239</ip_address>
+            <hw_address>14:49:bc:43:f4:db</hw_address>
+            <hostname>auxsw</hostname>
+            <description>Auxilary Switch TOR for OOB</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="90838c44-bc32-46c5-a4d7-8b9f0e874e76">
+            <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
+            <ip_address>192.168.2.240</ip_address>
+            <hw_address>f8:b1:56:62:bf:f9</hw_address>
+            <hostname>torsw0</hostname>
+            <description>ToR Switch 0 OOB</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="e751dfa8-b3c8-434e-afa9-3a3fe44cec82">
+            <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
+            <ip_address>192.168.2.241</ip_address>
+            <hw_address>f8:b1:56:45:c3:a1</hw_address>
+            <hostname>torsw1</hostname>
+            <description>ToR Switch 1 OOB</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="bbd3cf4f-170d-494a-aa30-7f38b892b7f2">
+            <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
+            <ip_address>192.168.1.201</ip_address>
+            <hw_address>00:1d:aa:40:02:d7</hw_address>
+            <hostname>vigorap903mieterug</hostname>
+            <description>UG AP</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="cdb92508-4543-4d62-b800-bcc443ddc3c5">
+            <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
+            <ip_address>192.168.1.203</ip_address>
+            <hw_address>00:1d:aa:40:03:4d</hw_address>
+            <hostname>vigorap903mansionog</hostname>
+            <description>OG AP</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="f43d315b-df56-4284-b721-531887b4b035">
+            <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
+            <ip_address>192.168.1.202</ip_address>
+            <hw_address>00:1d:aa:40:02:52</hw_address>
+            <hostname>vigorap903wohneg</hostname>
+            <description>EG AP</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="f8b59201-5277-4b3c-8123-637665d54c6d">
+            <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
+            <ip_address>192.168.1.232</ip_address>
+            <hw_address>f8:e9:4f:7b:da:de</hw_address>
+            <hostname>switch7bdade</hostname>
+            <description>EG Edge Switch (Cisco CB350)</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="ecfe181c-ebd6-4db2-8178-e50b32b4c948">
+            <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
+            <ip_address>192.168.1.233</ip_address>
+            <hw_address>cc:90:70:3b:bf:21</hw_address>
+            <hostname>switch3bbf21</hostname>
+            <description>OG Edge Switch (Cisco CB350)</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="9232adb5-57b8-4988-93c8-2a8753dfc46b">
+            <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
+            <ip_address>192.168.1.108</ip_address>
+            <hw_address>48:2e:72:a7:46:c3</hw_address>
+            <hostname>switcha746c3</hostname>
+            <description>UG Edge Switch (Cisco CB350)</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="09527a68-1d55-453e-b5b8-e10e0a67f8ee">
+            <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
+            <ip_address>192.168.1.241</ip_address>
+            <hw_address>f8:b1:56:45:c3:a3</hw_address>
+            <hostname>torsw1</hostname>
+            <description>ToR Switch 1</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="ae796585-0243-41b2-bd6f-354393382499">
+            <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
+            <ip_address>192.168.1.240</ip_address>
+            <hw_address>f8:b1:56:62:bf:fb</hw_address>
+            <hostname>torsw0</hostname>
+            <description>ToR Switch 0</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="fc0fb9bd-c610-44d1-a517-0b8413eb0ac4">
+            <subnet>d0eb8e7b-42a6-4b7f-b278-4c293b9994aa</subnet>
+            <ip_address>192.168.120.200</ip_address>
+            <hw_address>00:a0:de:b6:ae:40</hw_address>
+            <hostname>rx-v477b6ae40</hostname>
+            <description>RX-V477</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+        </reservations>
         <options/>
         <ha_peers>
           <peer uuid="911d85d9-e860-4a60-a336-f9b2724cfe9d">
