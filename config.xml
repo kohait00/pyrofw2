@@ -2912,9 +2912,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.131</username>
-    <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
-    <time>1776113763.37</time>
+    <username>root@192.168.120.104</username>
+    <description>/api/lldpd/general/set made changes</description>
+    <time>1776168026.93</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4237,8 +4237,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       </general>
     </trust>
     <lldpd>
-      <general version="1.0.1">
-        <enabled>0</enabled>
+      <general version="1.0.1" persisted_at="1776168026.93" description="Lldpd configuration">
+        <enabled>1</enabled>
         <cdp>0</cdp>
         <fdp>0</fdp>
         <edp>0</edp>
