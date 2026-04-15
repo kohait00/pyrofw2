@@ -613,7 +613,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <subnetv6>96</subnetv6>
     </opt20>
     <opt21>
-      <if>lagg1</if>
+      <if>lagg7</if>
       <descr>PFSYNC</descr>
       <enable>1</enable>
       <spoofmac/>
@@ -2824,8 +2824,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.113</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1776260659.64</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776263481.80</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
