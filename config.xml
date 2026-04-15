@@ -2912,9 +2912,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>Enter CARP maintenance mode</description>
-    <time>1776259977.70</time>
+    <username>root@192.168.120.113</username>
+    <description>/api/interfaces/vip_settings/set_item/f8772c58-977b-4b98-8e30-f089c1106eee made changes</description>
+    <time>1776260046.91</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4641,7 +4641,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <descr/>
     </lagg>
   </laggs>
-  <virtualip version="1.0.1">
+  <virtualip version="1.0.1" persisted_at="1776260046.91" description="Virtual IP configuration">
     <vip uuid="81a41fe6-092f-4a0b-b723-3437969e2551">
       <interface>opt5</interface>
       <mode>carp</mode>
@@ -4719,7 +4719,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <noexpand>0</noexpand>
       <nobind>0</nobind>
       <password>opensense</password>
-      <vhid>108</vhid>
+      <vhid>208</vhid>
       <advbase>1</advbase>
       <advskew>100</advskew>
       <peer/>
