@@ -1224,35 +1224,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <nat>
     <outbound>
       <mode>hybrid</mode>
-      <rule>
-        <source>
-          <network>192.168.110.50/32</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
-        <descr/>
-        <category/>
-        <interface>wan</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <target>wanip</target>
-        <staticnatport>1</staticnatport>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.120.125</username>
-          <time>1711614357.9753</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <created>
-          <username>root@192.168.120.125</username>
-          <time>1711614357.9753</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-      </rule>
+      <rule/>
     </outbound>
     <rule uuid="50aab8f8-618b-4a84-ab48-1cf770ba7665">
       <sequence>100</sequence>
@@ -2873,8 +2845,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.113</username>
-    <description>/api/firewall/d_nat/del_rule/57f76940-c00b-4ad2-b50b-30b8c8192b2d made changes</description>
-    <time>1776260606.01</time>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1776260618.57</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
