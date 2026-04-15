@@ -2913,8 +2913,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.131</username>
-    <description>/api/core/hasync/set made changes</description>
-    <time>1776185856.71</time>
+    <description>/api/interfaces/lagg_settings/set_item/2f4e87ef-76f1-4f6d-9748-099b54ad3e49 made changes</description>
+    <time>1776229390.48</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4543,7 +4543,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <ifgroups version="1.0.0">
     <ifgroupentry/>
   </ifgroups>
-  <laggs version="1.0.0" persisted_at="1776172696.68" description="LAGG devices">
+  <laggs version="1.0.0" persisted_at="1776229390.48" description="LAGG devices">
     <lagg uuid="52818e4b-f8ab-4770-b04e-01f702e22463">
       <laggif>lagg0</laggif>
       <members>igc0,igc1</members>
@@ -4596,7 +4596,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <laggif>lagg4</laggif>
       <members>ue4,ue5</members>
       <primary_member/>
-      <proto>lacp</proto>
+      <proto>failover</proto>
       <lacp_fast_timeout>0</lacp_fast_timeout>
       <use_flowid/>
       <lagghash/>
