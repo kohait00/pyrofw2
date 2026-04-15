@@ -2912,9 +2912,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.113</username>
-    <description>/api/interfaces/vip_settings/set_item/716469b3-b95a-4bb7-9e45-364c28a3b0e9 made changes</description>
-    <time>1776260122.65</time>
+    <username>(root)</username>
+    <description>Leave CARP maintenance mode</description>
+    <time>1776260148.35</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -5213,5 +5213,4 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <opendns/>
   <aliases/>
   <unbound/>
-  <virtualip_carp_maintenancemode>1</virtualip_carp_maintenancemode>
 </opnsense>
