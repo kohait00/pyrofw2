@@ -1398,27 +1398,6 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="41bd803e-44fd-44e0-ba78-737c34d47075">
-      <associated-rule-id>nat_66048b95071de9.24809280</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp/udp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.110.50</address>
-        <port>3478-3480</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@192.168.120.125</username>
-        <time>1711573909.0292</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="42d8af40-4866-491b-b4a4-700ecaf41cd5">
       <type>pass</type>
       <interface>lan</interface>
@@ -2845,8 +2824,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.113</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1776260618.57</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1776260659.64</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
