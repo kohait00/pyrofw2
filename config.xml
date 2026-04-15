@@ -413,7 +413,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <ipaddr>pppoe</ipaddr>
     </opt1>
     <opt2>
-      <if>lagg3</if>
+      <if>lagg4</if>
       <descr>LAN2</descr>
       <enable>1</enable>
       <spoofmac/>
@@ -2913,8 +2913,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.131</username>
-    <description>/api/interfaces/lagg_settings/set_item/2f4e87ef-76f1-4f6d-9748-099b54ad3e49 made changes</description>
-    <time>1776229390.48</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1776229498.91</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
