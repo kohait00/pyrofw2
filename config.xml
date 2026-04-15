@@ -1374,46 +1374,6 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
     </rule>
-    <rule uuid="57f76940-c00b-4ad2-b50b-30b8c8192b2d">
-      <sequence>400</sequence>
-      <disabled>0</disabled>
-      <nordr>0</nordr>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network/>
-        <port/>
-        <not>0</not>
-      </source>
-      <destination>
-        <network>(self)</network>
-        <port>3478-3480</port>
-        <not>0</not>
-      </destination>
-      <target>192.168.110.50</target>
-      <local-port>3478</local-port>
-      <poolopts/>
-      <log>0</log>
-      <category/>
-      <descr/>
-      <tag/>
-      <tagged/>
-      <nosync>0</nosync>
-      <natreflection/>
-      <pass/>
-      <associated-rule-id/>
-      <created>
-        <username>root@192.168.120.125</username>
-        <time>1711573909.0292</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <updated>
-        <username>root@192.168.120.125</username>
-        <time>1711573909.0292</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
-    </rule>
   </nat>
   <filter>
     <rule uuid="ca923cc2-18c0-4982-a14b-98db459da743">
@@ -2912,9 +2872,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>Leave CARP maintenance mode</description>
-    <time>1776260148.35</time>
+    <username>root@192.168.120.113</username>
+    <description>/api/firewall/d_nat/del_rule/57f76940-c00b-4ad2-b50b-30b8c8192b2d made changes</description>
+    <time>1776260606.01</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
