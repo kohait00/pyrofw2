@@ -2913,8 +2913,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>(root)</username>
-    <description>Enter CARP maintenance mode</description>
-    <time>1776259964.44</time>
+    <description>Leave CARP maintenance mode</description>
+    <time>1776259974.83</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -5213,5 +5213,4 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <opendns/>
   <aliases/>
   <unbound/>
-  <virtualip_carp_maintenancemode>1</virtualip_carp_maintenancemode>
 </opnsense>
