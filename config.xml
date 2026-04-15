@@ -2912,9 +2912,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.131</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1776229498.91</time>
+    <username>(root)</username>
+    <description>Enter CARP maintenance mode</description>
+    <time>1776259964.44</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -5213,4 +5213,5 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <opendns/>
   <aliases/>
   <unbound/>
+  <virtualip_carp_maintenancemode>1</virtualip_carp_maintenancemode>
 </opnsense>
