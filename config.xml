@@ -2823,9 +2823,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.131</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1776291330.88</time>
+    <username>root@192.168.120.113</username>
+    <description>/api/interfaces/vip_settings/add_item/ made changes</description>
+    <time>1776335545.38</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4552,7 +4552,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <descr/>
     </lagg>
   </laggs>
-  <virtualip version="1.0.1" persisted_at="1776260122.65" description="Virtual IP configuration">
+  <virtualip version="1.0.1" persisted_at="1776335545.38" description="Virtual IP configuration">
     <vip uuid="81a41fe6-092f-4a0b-b723-3437969e2551">
       <interface>opt5</interface>
       <mode>carp</mode>
@@ -4841,6 +4841,23 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <peer6/>
       <nosync>0</nosync>
       <descr>vOG_IOT</descr>
+    </vip>
+    <vip uuid="fcf409f4-7442-4b01-9d15-60c112b99e37">
+      <interface>wan</interface>
+      <mode>carp</mode>
+      <subnet>192.168.10.254</subnet>
+      <subnet_bits>24</subnet_bits>
+      <gateway/>
+      <noexpand>0</noexpand>
+      <nobind>0</nobind>
+      <password>opensense</password>
+      <vhid>10</vhid>
+      <advbase>1</advbase>
+      <advskew>100</advskew>
+      <peer/>
+      <peer6/>
+      <nosync>0</nosync>
+      <descr>vWAN</descr>
     </vip>
   </virtualip>
   <vlans version="1.0.0" persisted_at="1776113763.37" description="VLAN configuration">
