@@ -1239,19 +1239,18 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <poolopts/>
         <poolopts_sourcehashkey/>
         <ipprotocol>inet</ipprotocol>
-        <target>192.168.10.254</target>
-        <sourceport/>
-        <disabled>1</disabled>
-        <updated>
-          <username>root@192.168.120.113</username>
-          <time>1776339939.66</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
         <created>
           <username>root@192.168.120.113</username>
           <time>1776339939.66</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </created>
+        <target>192.168.10.254</target>
+        <sourceport/>
+        <updated>
+          <username>root@192.168.120.113</username>
+          <time>1776340000.20</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
       </rule>
     </outbound>
     <rule uuid="50aab8f8-618b-4a84-ab48-1cf770ba7665">
@@ -2878,7 +2877,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.120.113</username>
     <description>/firewall_nat_out_edit.php made changes</description>
-    <time>1776339939.76</time>
+    <time>1776340000.30</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
