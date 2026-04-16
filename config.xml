@@ -2849,8 +2849,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.113</username>
-    <description>/api/ntopng/general/set made changes</description>
-    <time>1776349883.97</time>
+    <description>/api/redis/settings/set made changes</description>
+    <time>1776349968.19</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4474,6 +4474,32 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       </general>
     </Hostwatch>
     <radvd version="1.0.0" persisted_at="1771252917.30" description="Radvd configuration"/>
+    <redis version="0.0.0" persisted_at="1776349968.19" description="Redis DB">
+      <general>
+        <enabled>1</enabled>
+        <listen>lan,opt2</listen>
+        <protected_mode>1</protected_mode>
+        <port>6379</port>
+        <log_level>warning</log_level>
+        <syslog_enabled>0</syslog_enabled>
+        <syslog_facility>LOCAL0</syslog_facility>
+        <databases>16</databases>
+      </general>
+      <security>
+        <password/>
+        <disable_commands/>
+      </security>
+      <limits>
+        <maxclients>10000</maxclients>
+        <maxmemory/>
+        <maxmemory_policy>noeviction</maxmemory_policy>
+        <maxmemory_samples>5</maxmemory_samples>
+      </limits>
+      <slowlog>
+        <slower_than>10000</slower_than>
+        <max_len>128</max_len>
+      </slowlog>
+    </redis>
   </OPNsense>
   <openvpn/>
   <ifgroups version="1.0.0">
