@@ -1348,7 +1348,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     </rule>
   </nat>
   <filter>
-    <rule uuid="ee54ecec-ce91-49bd-99d7-bd3bbc3f25ce">
+    <rule uuid="ec6994a6-858c-4cf9-a918-3d1adb7d68db">
       <type>pass</type>
       <interface>wan</interface>
       <ipprotocol>inet</ipprotocol>
@@ -1364,12 +1364,12 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       </destination>
       <updated>
         <username>root@192.168.120.113</username>
-        <time>1776337745.34</time>
+        <time>1776337831.58</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
         <username>root@192.168.120.113</username>
-        <time>1776337745.34</time>
+        <time>1776337831.58</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -2848,9 +2848,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.113</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1776337774.78</time>
+    <username>(root)@192.168.9.1</username>
+    <description>Merged OPNsense,system,cert,ca,crl,virtualip,staticroutes,gateways,dhcpd,dhcpdv6,dhcrelay,dhcrelay6,dnsmasq,ipsec,ntpd,opendns,openvpn,ifgroups,filter,aliases,nat,unbound,wol config sections from XMLRPC client.</description>
+    <time>1776338770.76</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -3586,7 +3586,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1776291330.88" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1776291226.32" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -4867,7 +4867,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <nosync>0</nosync>
       <descr>vOG_IOT</descr>
     </vip>
-    <vip uuid="fcf409f4-7442-4b01-9d15-60c112b99e37">
+    <vip uuid="c58c9224-9203-4dbf-87cf-0151d34731db">
       <interface>wan</interface>
       <mode>carp</mode>
       <subnet>192.168.10.254</subnet>
