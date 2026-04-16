@@ -2877,8 +2877,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.113</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1776340680.95</time>
+    <description>/api/interfaces/vip_settings/set_item/c58c9224-9203-4dbf-87cf-0151d34731db made changes</description>
+    <time>1776342051.35</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4605,7 +4605,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <descr/>
     </lagg>
   </laggs>
-  <virtualip version="1.0.1" persisted_at="1776335545.38" description="Virtual IP configuration">
+  <virtualip version="1.0.1" persisted_at="1776342051.35" description="Virtual IP configuration">
     <vip uuid="81a41fe6-092f-4a0b-b723-3437969e2551">
       <interface>opt5</interface>
       <mode>carp</mode>
@@ -4896,7 +4896,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <descr>vOG_IOT</descr>
     </vip>
     <vip uuid="c58c9224-9203-4dbf-87cf-0151d34731db">
-      <interface>wan</interface>
+      <interface>opt3</interface>
       <mode>carp</mode>
       <subnet>192.168.10.254</subnet>
       <subnet_bits>24</subnet_bits>
