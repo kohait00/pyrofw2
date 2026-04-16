@@ -311,7 +311,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-bind,os-cpu-microcode-intel,os-ddclient,os-debug,os-dec-hw,os-dmidecode,os-gdrive-backup,os-git-backup,os-hw-probe,os-iperf,os-isc-dhcp,os-lldpd,os-netdata,os-ntopng,os-theme-rebellion,os-wol</plugins>
+      <plugins>os-bind,os-cpu-microcode-intel,os-ddclient,os-debug,os-dec-hw,os-dmidecode,os-gdrive-backup,os-git-backup,os-hw-probe,os-iperf,os-isc-dhcp,os-lldpd,os-netdata,os-ntopng,os-redis,os-theme-rebellion,os-wol</plugins>
       <subscription/>
       <type/>
     </firmware>
@@ -2848,9 +2848,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)@192.168.9.1</username>
-    <description>Merged OPNsense,system,cert,ca,crl,virtualip,staticroutes,gateways,dhcpd,dhcpdv6,dhcrelay,dhcrelay6,dnsmasq,ipsec,ntpd,opendns,openvpn,ifgroups,filter,aliases,nat,unbound,wol config sections from XMLRPC client.</description>
-    <time>1776344009.65</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1776349815.82</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
