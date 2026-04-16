@@ -2849,8 +2849,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.113</username>
-    <description>/api/redis/settings/set made changes</description>
-    <time>1776350046.00</time>
+    <description>/api/ntopng/general/set made changes</description>
+    <time>1776350158.79</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -3569,12 +3569,12 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       </general>
     </netdata>
     <ntopng>
-      <general version="0.0.2" persisted_at="1776349883.97" description="ntopng configuration">
+      <general version="0.0.2" persisted_at="1776350158.79" description="ntopng configuration">
         <enabled>1</enabled>
         <interface/>
         <httpport>3000</httpport>
-        <httpsport/>
-        <cert/>
+        <httpsport>3443</httpsport>
+        <cert>656f3009adf00</cert>
         <dnsmode/>
       </general>
     </ntopng>
