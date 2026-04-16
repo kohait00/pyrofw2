@@ -1224,35 +1224,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <nat>
     <outbound>
       <mode>hybrid</mode>
-      <rule>
-        <source>
-          <network>any</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
-        <descr/>
-        <category/>
-        <interface>wan</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <target>192.168.10.254</target>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.120.113</username>
-          <time>1776340041.32</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <created>
-          <username>root@192.168.120.113</username>
-          <time>1776340041.32</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-        <disabled>1</disabled>
-      </rule>
+      <rule/>
     </outbound>
     <rule uuid="50aab8f8-618b-4a84-ab48-1cf770ba7665">
       <sequence>100</sequence>
@@ -2876,9 +2848,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)@192.168.9.1</username>
-    <description>Merged OPNsense,system,cert,ca,crl,virtualip,staticroutes,gateways,dhcpd,dhcpdv6,dhcrelay,dhcrelay6,dnsmasq,ipsec,ntpd,opendns,openvpn,ifgroups,filter,aliases,nat,unbound,wol config sections from XMLRPC client.</description>
-    <time>1776342526.90</time>
+    <username>root@192.168.120.131</username>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1776343123.73</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
