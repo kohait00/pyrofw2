@@ -1398,6 +1398,31 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="ee54ecec-ce91-49bd-99d7-bd3bbc3f25ce">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>carp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.120.113</username>
+        <time>1776337745.34</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.120.113</username>
+        <time>1776337745.34</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="42d8af40-4866-491b-b4a4-700ecaf41cd5">
       <type>pass</type>
       <interface>lan</interface>
@@ -2824,8 +2849,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   </widgets>
   <revision>
     <username>root@192.168.120.113</username>
-    <description>/api/interfaces/vip_settings/add_item/ made changes</description>
-    <time>1776335545.38</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1776337745.43</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
