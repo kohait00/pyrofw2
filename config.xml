@@ -2848,9 +2848,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.113</username>
-    <description>/api/ntopng/general/set made changes</description>
-    <time>1776350158.79</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1778605551.66</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4401,14 +4401,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           </peer>
         </ha_peers>
       </dhcp4>
-      <dhcp6 version="1.0.0">
+      <dhcp6 version="1.0.1" persisted_at="1778605549.55" description="Kea DHCPv6 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
           <interfaces/>
+          <service_sockets_max_retries/>
+          <service_sockets_retry_wait_time/>
           <valid_lifetime>4000</valid_lifetime>
+          <mac_sources>ipv6-link-local</mac_sources>
           <fwrules>1</fwrules>
         </general>
+        <lexpire>
+          <hold_reclaimed_time/>
+          <reclaim_timer_wait_time/>
+          <flush_reclaimed_timer_wait_time/>
+          <max_reclaim_time/>
+          <max_reclaim_leases/>
+          <unwarned_reclaim_cycles/>
+        </lexpire>
         <ha>
           <enabled>0</enabled>
           <this_server_name/>
@@ -4416,6 +4427,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         </ha>
         <subnets/>
         <reservations/>
+        <options/>
         <pd_pools/>
         <ha_peers/>
       </dhcp6>
@@ -4473,7 +4485,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <interface/>
       </general>
     </Hostwatch>
-    <radvd version="1.0.0" persisted_at="1771252917.30" description="Radvd configuration"/>
+    <radvd version="1.0.1" persisted_at="1778605551.64" description="Radvd configuration"/>
     <redis version="0.0.0" persisted_at="1776350046.00" description="Redis DB">
       <general>
         <enabled>1</enabled>
