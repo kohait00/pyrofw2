@@ -2850,7 +2850,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1778605551.66</time>
+    <time>1780899898.23</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -3586,7 +3586,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1776291226.32" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.5" persisted_at="1780899897.43" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -3594,8 +3594,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <service_sockets_max_retries/>
           <service_sockets_retry_wait_time/>
           <valid_lifetime>600</valid_lifetime>
+          <decline_probation_period/>
           <fwrules>1</fwrules>
           <dhcp_socket_type>raw</dhcp_socket_type>
+          <compatibility/>
         </general>
         <lexpire>
           <hold_reclaimed_time/>
@@ -3613,6 +3615,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <subnets>
           <subnet4 uuid="08ffd96c-fd31-4e88-9f41-51e879141223">
             <subnet>192.168.200.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3631,17 +3634,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.200.100 - 192.168.200.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>DEVpool</description>
           </subnet4>
           <subnet4 uuid="d21dbd17-35c9-4955-bd28-691d34a5c64a">
             <subnet>192.168.100.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3660,17 +3671,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.100.100 - 192.168.100.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>DMZpool</description>
           </subnet4>
           <subnet4 uuid="6c83782d-e859-490b-8333-92d08612a2e0">
             <subnet>192.168.121.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3689,17 +3708,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.121.100 - 192.168.121.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>EG_GUESTpool</description>
           </subnet4>
           <subnet4 uuid="135792d2-b230-4f27-9879-78ea056ffc62">
             <subnet>192.168.128.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3718,17 +3745,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.128.100 - 192.168.128.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>EG_IOTpool</description>
           </subnet4>
           <subnet4 uuid="d0eb8e7b-42a6-4b7f-b278-4c293b9994aa">
             <subnet>192.168.120.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3747,17 +3782,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.120.100 - 192.168.120.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>EG_LANpool</description>
           </subnet4>
           <subnet4 uuid="8007e862-3097-4fdd-8562-b03b12b9f223">
             <subnet>192.168.108.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3776,17 +3819,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.108.100 - 192.168.108.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>IOTpool</description>
           </subnet4>
           <subnet4 uuid="b04bacb4-73b7-489c-a321-861470def5a4">
             <subnet>192.168.1.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3805,17 +3856,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.1.100 - 192.168.1.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>LANpool</description>
           </subnet4>
           <subnet4 uuid="da322a5e-eec4-4196-87fb-b0ae4f70dd80">
             <subnet>192.168.2.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3834,17 +3893,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.2.100 - 192.168.2.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>LAN2pool</description>
           </subnet4>
           <subnet4 uuid="2815e3ec-179d-496a-8da8-d88602ca570b">
             <subnet>192.168.99.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3863,17 +3930,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.99.100 - 192.168.99.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>MGMpool</description>
           </subnet4>
           <subnet4 uuid="aed1d9c0-838c-439b-9add-eed63be58dd9">
             <subnet>192.168.88.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3892,17 +3967,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.88.100 - 192.168.88.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>TECHpool</description>
           </subnet4>
           <subnet4 uuid="b7a397ba-5753-4bd5-9e85-9385c3ab1dcb">
             <subnet>192.168.101.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3921,17 +4004,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.101.100 - 192.168.101.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>SRVpool</description>
           </subnet4>
           <subnet4 uuid="927186eb-f92b-4469-8f72-61d637334460">
             <subnet>192.168.131.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3950,17 +4041,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.131.100 - 192.168.131.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>OG_GUESTpool</description>
           </subnet4>
           <subnet4 uuid="3ec6c4dd-2e29-4d0f-8930-0935a5507001">
             <subnet>192.168.138.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -3979,17 +4078,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.138.100 - 192.168.138.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>OG_IOTpool</description>
           </subnet4>
           <subnet4 uuid="53c543e3-261f-46e3-9159-e8f56b3cd622">
             <subnet>192.168.130.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -4008,17 +4115,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.130.100 - 192.168.130.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>OG_LANpool</description>
           </subnet4>
           <subnet4 uuid="54edbc5a-f844-4b89-83ad-00647e026e2d">
             <subnet>192.168.111.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -4037,17 +4152,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.111.100 - 192.168.111.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>UG_GUESTpool</description>
           </subnet4>
           <subnet4 uuid="694043e7-bd16-497d-9d5c-11945d080c80">
             <subnet>192.168.118.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -4066,17 +4189,25 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.118.100 - 192.168.118.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>UG_IOTpool</description>
           </subnet4>
           <subnet4 uuid="fbfc6e52-f3d2-4129-aac4-214f6718d0ea">
             <subnet>192.168.110.0/24</subnet>
+            <valid_lifetime/>
             <next_server/>
             <option_data_autocollect>0</option_data_autocollect>
             <option_data>
@@ -4095,13 +4226,20 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             </option_data>
             <option/>
             <match-client-id>1</match-client-id>
+            <allocator/>
             <pools>192.168.110.100 - 192.168.110.199</pools>
             <ddns_forward_zone/>
+            <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
             <ddns_dns_server/>
+            <ddns_dns_port/>
             <ddns_domain_key_name/>
             <ddns_domain_key_secret/>
             <ddns_domain_key_algorithm/>
+            <ddns_override_no_update>0</ddns_override_no_update>
+            <ddns_override_client_update>0</ddns_override_client_update>
+            <ddns_update_on_renew>0</ddns_update_on_renew>
+            <ddns_conflict_resolution_mode/>
             <description>UG_LANpool</description>
           </subnet4>
         </subnets>
@@ -4110,8 +4248,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
             <ip_address>192.168.2.220</ip_address>
             <hw_address>20:04:0f:40:db:49</hw_address>
+            <client_id/>
             <hostname>core0</hostname>
             <description>Core 0 Switch OOB</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4130,8 +4270,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
             <ip_address>192.168.2.221</ip_address>
             <hw_address>20:04:0f:40:d9:49</hw_address>
+            <client_id/>
             <hostname>core1</hostname>
             <description>Core 1 Switch OOB</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4150,8 +4292,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
             <ip_address>192.168.2.239</ip_address>
             <hw_address>14:49:bc:43:f4:db</hw_address>
+            <client_id/>
             <hostname>auxsw</hostname>
             <description>Auxilary Switch TOR for OOB</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4170,8 +4314,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
             <ip_address>192.168.2.240</ip_address>
             <hw_address>f8:b1:56:62:bf:f9</hw_address>
+            <client_id/>
             <hostname>torsw0</hostname>
             <description>ToR Switch 0 OOB</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4190,8 +4336,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>da322a5e-eec4-4196-87fb-b0ae4f70dd80</subnet>
             <ip_address>192.168.2.241</ip_address>
             <hw_address>f8:b1:56:45:c3:a1</hw_address>
+            <client_id/>
             <hostname>torsw1</hostname>
             <description>ToR Switch 1 OOB</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4210,8 +4358,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
             <ip_address>192.168.1.201</ip_address>
             <hw_address>00:1d:aa:40:02:d7</hw_address>
+            <client_id/>
             <hostname>vigorap903mieterug</hostname>
             <description>UG AP</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4230,8 +4380,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
             <ip_address>192.168.1.203</ip_address>
             <hw_address>00:1d:aa:40:03:4d</hw_address>
+            <client_id/>
             <hostname>vigorap903mansionog</hostname>
             <description>OG AP</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4250,8 +4402,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
             <ip_address>192.168.1.202</ip_address>
             <hw_address>00:1d:aa:40:02:52</hw_address>
+            <client_id/>
             <hostname>vigorap903wohneg</hostname>
             <description>EG AP</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4270,8 +4424,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
             <ip_address>192.168.1.232</ip_address>
             <hw_address>f8:e9:4f:7b:da:de</hw_address>
+            <client_id/>
             <hostname>switch7bdade</hostname>
             <description>EG Edge Switch (Cisco CB350)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4290,8 +4446,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
             <ip_address>192.168.1.233</ip_address>
             <hw_address>cc:90:70:3b:bf:21</hw_address>
+            <client_id/>
             <hostname>switch3bbf21</hostname>
             <description>OG Edge Switch (Cisco CB350)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4310,8 +4468,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
             <ip_address>192.168.1.231</ip_address>
             <hw_address>48:2e:72:a7:46:c3</hw_address>
+            <client_id/>
             <hostname>switcha746c3</hostname>
             <description>UG Edge Switch (Cisco CB350)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4330,8 +4490,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
             <ip_address>192.168.1.241</ip_address>
             <hw_address>f8:b1:56:45:c3:a3</hw_address>
+            <client_id/>
             <hostname>torsw1</hostname>
             <description>ToR Switch 1</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4350,8 +4512,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>b04bacb4-73b7-489c-a321-861470def5a4</subnet>
             <ip_address>192.168.1.240</ip_address>
             <hw_address>f8:b1:56:62:bf:fb</hw_address>
+            <client_id/>
             <hostname>torsw0</hostname>
             <description>ToR Switch 0</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4370,8 +4534,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <subnet>d0eb8e7b-42a6-4b7f-b278-4c293b9994aa</subnet>
             <ip_address>192.168.120.200</ip_address>
             <hw_address>00:a0:de:b6:ae:40</hw_address>
+            <client_id/>
             <hostname>rx-v477b6ae40</hostname>
             <description>RX-V477</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -4401,7 +4567,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           </peer>
         </ha_peers>
       </dhcp4>
-      <dhcp6 version="1.0.1" persisted_at="1778605549.55" description="Kea DHCPv6 configuration">
+      <dhcp6 version="1.0.2" persisted_at="1780899897.37" description="Kea DHCPv6 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
@@ -4409,6 +4575,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <service_sockets_max_retries/>
           <service_sockets_retry_wait_time/>
           <valid_lifetime>4000</valid_lifetime>
+          <decline_probation_period/>
           <mac_sources>ipv6-link-local</mac_sources>
           <fwrules>1</fwrules>
         </general>
