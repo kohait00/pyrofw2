@@ -2850,7 +2850,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1780899898.23</time>
+    <time>1782369559.58</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -5244,9 +5244,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <vlanif>vlan0.9</vlanif>
     </vlan>
   </vlans>
-  <staticroutes version="1.0.0">
-    <route/>
-  </staticroutes>
+  <staticroutes version="1.0.1" persisted_at="1782369557.44" description="Static routes"/>
   <bridges version="1.0.0">
     <bridged uuid="bfced367-251e-4cca-8c23-5c1868f58831">
       <bridgeif>bridge0</bridgeif>
