@@ -2850,7 +2850,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1782369559.58</time>
+    <time>1783007956.02</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -2978,7 +2978,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.4">
+      <Filter version="1.0.5" persisted_at="1783007953.73" description="Firewall rules (new)">
+        <general/>
         <rules/>
         <snatrules/>
         <npt/>
