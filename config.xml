@@ -2848,9 +2848,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1783007956.02</time>
+    <username>root@192.168.120.163</username>
+    <description>/api/interfaces/lagg_settings/set_item/9301ee2d-ff75-4982-9299-169b98189910 made changes</description>
+    <time>1783544489.31</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4685,7 +4685,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <ifgroups version="1.0.0">
     <ifgroupentry/>
   </ifgroups>
-  <laggs version="1.0.0" persisted_at="1776229390.48" description="LAGG devices">
+  <laggs version="1.0.0" persisted_at="1783544489.31" description="LAGG devices">
     <lagg uuid="52818e4b-f8ab-4770-b04e-01f702e22463">
       <laggif>lagg0</laggif>
       <members>igc0,igc1</members>
@@ -4748,7 +4748,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     </lagg>
     <lagg uuid="9301ee2d-ff75-4982-9299-169b98189910">
       <laggif>lagg5</laggif>
-      <members>igb0,igb1</members>
+      <members>ix0,ix1</members>
       <primary_member/>
       <proto>lacp</proto>
       <lacp_fast_timeout>0</lacp_fast_timeout>
