@@ -2845,9 +2845,9 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     <traffic_graphs_interfaces>opt7,opt12,opt2,opt15,opt9,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@192.168.120.185</username>
-    <description>/api/routes/routes/delroute/d1b95a29-7d70-4ae8-9523-7bcd1ac64761 made changes</description>
-    <time>1785252344.80</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1785271801.14</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -4617,7 +4617,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
     </wireguard>
     <DHCRelay version="1.0.1"/>
     <trust>
-      <general version="1.0.1">
+      <general version="1.0.2" persisted_at="1785271800.94" description="Trust general settings">
         <store_intermediate_certs>0</store_intermediate_certs>
         <install_crls>0</install_crls>
         <fetch_crls>0</fetch_crls>
@@ -4625,6 +4625,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <enable_config_constraints>0</enable_config_constraints>
         <CipherString/>
         <Ciphersuites/>
+        <SignatureAlgorithms/>
         <groups/>
         <MinProtocol/>
         <MinProtocol_DTLS/>
