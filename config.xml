@@ -2847,7 +2847,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1785271801.14</time>
+    <time>1787325343.79</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.5" persisted_at="1757947480.04">
@@ -3584,7 +3584,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.5" persisted_at="1780899897.43" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.6" persisted_at="1787325342.98" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -3612,6 +3612,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         </ha>
         <subnets>
           <subnet4 uuid="08ffd96c-fd31-4e88-9f41-51e879141223">
+            <subnet_id>1</subnet_id>
             <subnet>192.168.200.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3649,6 +3650,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>DEVpool</description>
           </subnet4>
           <subnet4 uuid="d21dbd17-35c9-4955-bd28-691d34a5c64a">
+            <subnet_id>2</subnet_id>
             <subnet>192.168.100.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3686,6 +3688,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>DMZpool</description>
           </subnet4>
           <subnet4 uuid="6c83782d-e859-490b-8333-92d08612a2e0">
+            <subnet_id>3</subnet_id>
             <subnet>192.168.121.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3723,6 +3726,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>EG_GUESTpool</description>
           </subnet4>
           <subnet4 uuid="135792d2-b230-4f27-9879-78ea056ffc62">
+            <subnet_id>4</subnet_id>
             <subnet>192.168.128.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3760,6 +3764,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>EG_IOTpool</description>
           </subnet4>
           <subnet4 uuid="d0eb8e7b-42a6-4b7f-b278-4c293b9994aa">
+            <subnet_id>5</subnet_id>
             <subnet>192.168.120.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3797,6 +3802,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>EG_LANpool</description>
           </subnet4>
           <subnet4 uuid="8007e862-3097-4fdd-8562-b03b12b9f223">
+            <subnet_id>6</subnet_id>
             <subnet>192.168.108.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3834,6 +3840,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>IOTpool</description>
           </subnet4>
           <subnet4 uuid="b04bacb4-73b7-489c-a321-861470def5a4">
+            <subnet_id>7</subnet_id>
             <subnet>192.168.1.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3871,6 +3878,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>LANpool</description>
           </subnet4>
           <subnet4 uuid="da322a5e-eec4-4196-87fb-b0ae4f70dd80">
+            <subnet_id>8</subnet_id>
             <subnet>192.168.2.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3908,6 +3916,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>LAN2pool</description>
           </subnet4>
           <subnet4 uuid="2815e3ec-179d-496a-8da8-d88602ca570b">
+            <subnet_id>9</subnet_id>
             <subnet>192.168.99.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3945,6 +3954,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>MGMpool</description>
           </subnet4>
           <subnet4 uuid="aed1d9c0-838c-439b-9add-eed63be58dd9">
+            <subnet_id>10</subnet_id>
             <subnet>192.168.88.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -3982,6 +3992,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>TECHpool</description>
           </subnet4>
           <subnet4 uuid="b7a397ba-5753-4bd5-9e85-9385c3ab1dcb">
+            <subnet_id>11</subnet_id>
             <subnet>192.168.101.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -4019,6 +4030,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>SRVpool</description>
           </subnet4>
           <subnet4 uuid="927186eb-f92b-4469-8f72-61d637334460">
+            <subnet_id>12</subnet_id>
             <subnet>192.168.131.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -4056,6 +4068,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>OG_GUESTpool</description>
           </subnet4>
           <subnet4 uuid="3ec6c4dd-2e29-4d0f-8930-0935a5507001">
+            <subnet_id>13</subnet_id>
             <subnet>192.168.138.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -4093,6 +4106,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>OG_IOTpool</description>
           </subnet4>
           <subnet4 uuid="53c543e3-261f-46e3-9159-e8f56b3cd622">
+            <subnet_id>14</subnet_id>
             <subnet>192.168.130.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -4130,6 +4144,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>OG_LANpool</description>
           </subnet4>
           <subnet4 uuid="54edbc5a-f844-4b89-83ad-00647e026e2d">
+            <subnet_id>15</subnet_id>
             <subnet>192.168.111.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -4167,6 +4182,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>UG_GUESTpool</description>
           </subnet4>
           <subnet4 uuid="694043e7-bd16-497d-9d5c-11945d080c80">
+            <subnet_id>16</subnet_id>
             <subnet>192.168.118.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -4204,6 +4220,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <description>UG_IOTpool</description>
           </subnet4>
           <subnet4 uuid="fbfc6e52-f3d2-4129-aac4-214f6718d0ea">
+            <subnet_id>17</subnet_id>
             <subnet>192.168.110.0/24</subnet>
             <valid_lifetime/>
             <next_server/>
@@ -4565,7 +4582,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           </peer>
         </ha_peers>
       </dhcp4>
-      <dhcp6 version="1.0.2" persisted_at="1780899897.37" description="Kea DHCPv6 configuration">
+      <dhcp6 version="1.0.3" persisted_at="1787325342.91" description="Kea DHCPv6 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
