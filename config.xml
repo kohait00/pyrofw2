@@ -2847,10 +2847,10 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1789124287.36</time>
+    <time>1793614974.42</time>
   </revision>
   <OPNsense>
-    <IPsec version="1.0.5" persisted_at="1757947480.04">
+    <IPsec version="1.0.6" persisted_at="1793614974.01" description="IPsec settings">
       <general>
         <enabled/>
         <preferred_oldsa>0</preferred_oldsa>
@@ -2874,6 +2874,8 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <retransmit_base/>
         <retransmit_jitter/>
         <retransmit_limit/>
+        <reqid_base/>
+        <retry_initiate_interval>30</retry_initiate_interval>
         <syslog>
           <daemon>
             <ike_name>1</ike_name>
@@ -2950,7 +2952,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <jobs/>
     </cron>
     <Firewall>
-      <Lvtemplate version="0.0.1">
+      <Lvtemplate version="1.0.0" persisted_at="1793614973.73" description="Firewall Live View filter templates">
         <templates/>
       </Lvtemplate>
       <Alias version="1.0.1">
@@ -3584,7 +3586,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.6" persisted_at="1787325342.98" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.7" persisted_at="1793614973.62" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -3635,6 +3637,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.200.100 - 192.168.200.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -3673,6 +3676,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.100.100 - 192.168.100.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -3711,6 +3715,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.121.100 - 192.168.121.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -3749,6 +3754,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.128.100 - 192.168.128.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -3787,6 +3793,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.120.100 - 192.168.120.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -3825,6 +3832,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.108.100 - 192.168.108.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -3863,6 +3871,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.1.100 - 192.168.1.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -3901,6 +3910,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.2.100 - 192.168.2.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -3939,6 +3949,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.99.100 - 192.168.99.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -3977,6 +3988,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.88.100 - 192.168.88.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -4015,6 +4027,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.101.100 - 192.168.101.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -4053,6 +4066,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.131.100 - 192.168.131.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -4091,6 +4105,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.138.100 - 192.168.138.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -4129,6 +4144,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.130.100 - 192.168.130.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -4167,6 +4183,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.111.100 - 192.168.111.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -4205,6 +4222,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.118.100 - 192.168.118.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -4243,6 +4261,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
             <match-client-id>1</match-client-id>
             <allocator/>
             <pools>192.168.110.100 - 192.168.110.199</pools>
+            <ping_check>0</ping_check>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
             <ddns_qualifying_suffix/>
@@ -5304,9 +5323,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <provider>DeutscheTelekom</provider>
     </ppp>
   </ppps>
-  <wireless>
-    <clone/>
-  </wireless>
+  <wireless version="1.0.0" persisted_at="1793614971.63" description="Wireless configuration"/>
   <ca/>
   <dhcpdv6/>
   <cert uuid="7435ae21-ded1-4193-bea9-d01fe404e177">
