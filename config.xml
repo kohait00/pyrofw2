@@ -2847,7 +2847,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1793614974.42</time>
+    <time>1795184353.16</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.6" persisted_at="1793614974.01" description="IPsec settings">
@@ -2944,7 +2944,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
       <Instances/>
       <StaticKeys/>
     </OpenVPN>
-    <captiveportal version="1.0.5" persisted_at="1775830776.43" description="Captive portal application model">
+    <captiveportal version="1.0.6" persisted_at="1795184350.15" description="Captive portal application model">
       <zones/>
       <templates/>
     </captiveportal>
@@ -3055,6 +3055,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <dhcp6_duid/>
         <dhcp6_ratimeout>10</dhcp6_ratimeout>
       </settings>
+      <taps version="1.0.0" persisted_at="1795184351.21" description="TAP configuration"/>
     </Interfaces>
     <monit version="1.0.14" persisted_at="1757949449.83">
       <general>
@@ -3357,7 +3358,7 @@ VmPINGZTIsf0lpgjp8hHAAAAEmtvaGFpdDAwQGdtYWlsLmNvbQECAw==&#13;
         <template/>
       </error_pages>
     </proxy>
-    <Syslog version="1.0.2">
+    <Syslog version="1.0.3" persisted_at="1795184353.15" description="System logging settings">
       <general>
         <enabled>1</enabled>
         <loglocal>1</loglocal>
